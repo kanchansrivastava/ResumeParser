@@ -14,8 +14,11 @@ AVAILABLE_EXTENSIONS = {'.csv', '.doc', '.docx', '.eml', '.epub', '.gif', '.htm'
                         '.log', '.mp3', '.msg', '.odt', '.ogg', '.pdf', '.png', '.pptx', '.ps', '.psv', '.rtf', '.tff',
                         '.tif', '.tiff', '.tsv', '.txt', '.wav', '.xls', '.xlsx'}
 
+CONFIG_YAML_PATH = '/Users/kanchansrivastava/PycharmProjects/codebase/cb/ResumeParser/confs/config.yaml'
+SCHEMA_OUTPUT_PATH = '/Users/kanchansrivastava/PycharmProjects/codebase/cb/ResumeParser/data/schema/extract.csv'
 
-def load_confs(confs_path='../confs/config.yaml'):
+
+def load_confs(confs_path=CONFIG_YAML_PATH):
     # TODO Docstring
     global CONFS
 
@@ -54,8 +57,7 @@ def archive_dataset_schemas(step_name, local_dict, global_dict):
     logging.info('Archiving data set schema(s) for step name: {}'.format(step_name))
 
     # Reference variables
-    data_schema_dir = get_conf('data_schema_dir')
-    schema_output_path = os.path.join(data_schema_dir, step_name + '.csv')
+    # data_schema_dir = get_conf('data_schema_dir')
     schema_agg = list()
 
     env_variables = dict()
@@ -79,7 +81,7 @@ def archive_dataset_schemas(step_name, local_dict, global_dict):
     agg_schema_df = pandas.concat(schema_agg)
 
     # Write to file
-    agg_schema_df.to_csv(schema_output_path, index_label='variable')
+    agg_schema_df.to_csv(SCHEMA_OUTPUT_PATH, index_label='variable')
 
 
 def term_count(string_to_search, term):

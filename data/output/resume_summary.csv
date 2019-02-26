@@ -1,469 +1,114 @@
-index,file_path,extension,text,candidate_name,email,phone,universities,skills
-1,../data/input/example_resumes/Brendan_Herger_Resume.pdf,.pdf,"Brendan Herger
-
-Hergertarian.com | 13herger@gmail.com  |  + 1 (415) 582-7457
-
-1209 Page Street No. 7 San Francisco, Ca 94117
-
-Selected Experience
-
-Data Scientist
-
-Data Innovation Lab @ Capital One (San Francisco, Ca.)   06/15 - Now 
-Lead research team modeling for fraud problem space with class 
-imbalance & adversaries; H2O.ai, GraphLab, SKLearn
-Deployed sub-millisecond real time model; Apache Apex
-Recommended distributed machine learning frameworks for general 
-adoption at Capital One; H2O.ai, GraphLab, Apache Spark
-
-Various Technical Positions
-
-Lawfty (San Francisco, Ca.), RevUp Software (Redwood City, Ca.), 
-Perkins + Will Architecture (San Francisco, Ca.) & Lawrence Berkeley 
-National Lab. (Berkeley, Ca.)
-
-Front End Supervisor
-
-The Home Depot Pro (Colma, Ca.)                                        05/11 - 03/13
-Positions held: Cashier, Special Services Assoc., Tool Rental Assoc.
-Supervised and trained a staff of 10-30 team members
-
-Education
-MS, Analytics
-
-University of San Francisco, July 2015
-Relevant Coursework: Machine Learning, Adv. Machine Learning, Data 
-Acquisition, Exploratory Data Analysis, Relational Databases, NoSQL 
-Databases, Linear Regression Analysis, Time Series Analysis, Intro. SAS
-
-BS, Physics
-
-University of San Francisco, May 2014
-Minors: Computer Sciences, Mathematics
-Honors: University Scholar, President of ΠΜΕ Math Honors Society
-Relevant Coursework: Software Development, Data Structures & 
-Algorithms, Differential Eqn.’s, Linear Algebra, Graduate Econometrics
-
-Personal Projects
-
-Identified genre of Billboard 
-Hot 100 songs using ensemble 
-algorithm built with Support 
-Vector Machine, Neural Network, 
-Stochastic Gradient Boost, and 
-Random Forest  algorithms; 
-Python, Pandas, R and Scikit-Learn
-
-Implemented Naive Bayes text 
-classification algorithm and trained 
-this algorithm to correctly label 
-83% of movie reviews; Python, 
-numpy and Pandas
-
-Created database containing lyrics 
-of Billboard Hot 100 songs since 
-1958; R, Python, Pandas and 
-Beautiful Soup 4
-
-Built a multi-threaded web scraper 
-and search engine with web 
-user interface; Java, MySQL and 
-HTML5/CSS
-
-Built resume parsing package 
-which extracts text, finds contact 
-details, and checks for required 
-keywords; Python and Pandas
-
-Online
-
-Hergertarian.com
-
-github.com/bjherger
-
-linkedin.com/in/bjherger
-
-hergertarian.wordpress.com/
-
-",Brendan Herger,13herger@gmail.com,"(415, 582, 7457)",{university of san francisco},"{python, sklearn}"
-2,../data/input/example_resumes/john_smith.docx,.docx,"John Smith 
-
-
-
-2222 McCoy Road     Columbus, Ohio 44444    614-555-5555    sresume@kent.edu  www.linkedin.com/in/name
-
-
-
-
-
-OBJECTIVE
-
-Seeking a marketing internship with ABC Company in Spring 2017 to utilize my organizational and analytical skills.
-
-
-
-EDUCATION 
-
-Bachelor of Business Administration						Expected Graduation: May 2018
-
-Kent State University								Kent, Ohio
-
-Major: Business Management							GPA: 3.6
-
-
-
-SIGNIFICANT COURSEWORK
-
-Business Finance, Principles of Management, Legal Environment of Business
-
-
-
-COMPUTER SKILLS
-
-Microsoft Office: Word, PowerPoint, and basic Excel
-
-Applications: SQL (Structure Query Language)
-
-Programs: Adobe Photoshop, Movie Maker
-
-Social Media Administration: LinkedIn, Twitter, Instagram, Facebook
-
-	
-
-WORK EXPERIENCE 
-
-Kent State University, Kent, Ohio						August 2015 - Present 
-
-Resident Advisor
-
-Collaborate with 10 building staff and campus administrators on a weekly basis to organize a pancake breakfast fundraiser for 200 attendees, raising $500 for community charity. 
-
-Utilize effective time management skills by creating and implementing 6 programs and activities each semester for 30 residents while balancing full-time course load and extracurricular commitments. 
-
-Demonstrate strong communication skills through interacting with 150 residents and campus administrators on a weekly basis. 
-
-Facilitate problem-solving and conflict resolution amongst residents by serving as positive role model, mediator, and leader through one-on-one and small group interventions. 
-
-
-
-Panini’s Bar and Grill, Cleveland, Ohio                    				August 2014 - May 2015 
-
-Server
-
-Worked independently in a fast-paced environment while developing customer service skills with each guest to ensure their needs were consistently met.
-
-Optimized persuasive skills to highlight nightly specials and engage each table’s attention.
-
-Fostered cooperation within a staff of 7 to maintain a pleasant atmosphere.
-
-
-
-LEADERSHIP EXPERIENCE 
-
-Harding Middle School, Columbus, Ohio					July 2014 - October 2015
-
-Soccer Assistant Coach	
-
-	Executed strong communication skills by guiding and leading 20 seventh and eighth grade girls on team.
-
-	Served as positive role model by teaching young athletes about teamwork, respect, and conflict-resolution.
-
-	Planned and led weekly meetings with up to 15 parents, field managers and staff members.
-
-	Led team to its first regional championship in October 2015; recognized at school banquet with leadership award.
-
-
-
-CAMPUS INVOLVEMENT
-
-Member, Delta Sigma Pi					 		August 2016 - Present 
-
-Member, Collegiate Business Association					August 2015 - Present 
-
-
-
-VOLUNTEER EXPERIENCE 
-
-Relay for Life, Kent State University				 		March 2015
-
-Donation Processer, Greater Cleveland Food Bank				December 2014 - February 2015
-
-
-
-HONORS
-
-Summit County Alumni Association Scholarship					Spring 2014 - Present
-
-Dean’s List									Spring 2013 - Spring 2015",John Smith,sresume@kent.edu,"(614, 555, 5555)",{},{}
-3,../data/input/example_resumes/Layla_Martin_Resume.pdf,.pdf,"Layla Martin
-
-2038 McAllister St
-
-San Francisco, CA 94118
-
-layla.d.martin@gmail.com (520) 271-2492
-
-EDUCATION
-AND AWARDS
-
-Master of Science in Analytics
-University of San Francisco, San Francisco, CA
-
-Bachelor of Science in Mathematics, Cum Laude
-University of San Francisco
-Dean’s Honor Role (4 years)
-University Scholar, USF’s highest academic scholarship (4 years)
-
-Expected June 2015
-
-May 2014
-
-SELECTED
-PROJECTS
-
-Sentiment Analysis using Naive-Bayes
-
-Graduate
-• Classiﬁed movie reviews as positive or negative with 75% accuracy by implementing a
-
-Naive-Bayes algorithm in Python.
-
-NBA Play-By-Play Data Cleaning
-
-Summer research with USF Faculty
-• Cleaned play-by-play data for every NBA game from 2006 to 2012 using Pandas (Python).
-
-Analysis of USF Men’s Basketball Statistics using R
-
-Undergraduate
-• Predicted importance of players on the court using simple and multiple linear regression
-
-and created visualizations of player statistics using R.
-
-Explaining Artiﬁcial Neural Networks (ANN)
-
-Undergraduate
-• Prepared two student lectures teaching classmates basic implementation and theory behind
-• Preprocessed ﬁngerprint images as matrices in Matlab and performed pattern classiﬁcation
-
-supervised learning, backpropagation, and pattern recognition with ANN.
-
-using an ANN program.
-
-Mathematical Modeling Research
-
-Undergraduate
-
-• Performed image compression with SVD implemented in Matlab.
-• Ranked West Coast Conference Men’s Basketball teams using multiple centrality ranking
-
-algorithms in Matlab.
-
-LEADERSHIP
-
-President, Pi Mu Epsilon National Math Honor Society
-Captain, USF Women’s Soccer
-Teacher’s Assistant, USF Astronomy Observations
-
-2014
-2013-2014
-2013-2014
-
-SKILLS
-
-Python, R, MySQL, PostgreSQL, Matlab, LaTeX, JMP
-
-INTER-
-COLLEGIATE
-ATHLETICS
-
-NCAA Division I Women’s Soccer: USF, 2010-2014
-
-• Athletic scholarship (full scholarship when combined with University Scholarship).
-• Committed 30 hours per week to training, meetings, travel, competition.
-
-",Layla Martin,layla.d.martin@gmail.com,"(520, 271, 2492)",{university of san francisco},{python}
-4,../data/input/example_resumes/resume_Meyer.pdf,.pdf,"MONICA MEYER
-
-(415) · 497 · 7282 (cid:5) monica.meyer@comcast.net
-
-EDUCATION
-
-Master of Science in Analytics
-University of San Francisco
-
-Bachelor of Arts in Mathematics
-University of California, Santa Cruz
-Overall GPA: 3.5
-
-COURSE PROJECTS
-
-Expected June 2015
-
-July 2012
-
-Business Location Recommendation
-Sep 2014
-· Queried Yelp and Zillow APIs and performed exploratory data analysis necessary for project to help
-businesses decide where to open their next establishment.
-
-Text Classiﬁcation
-· Classiﬁed movie reviews as positive or negative using Naive Bayes in Python.
-· Found most important words in Reuter’s articles through term frequency, inverse document frequency
-on XML ﬁles in Python.
-
-July 2014
-
-WORK EXPERIENCE
-
-Bank of America
-Dec 2013 - June 2014
-Sales and Service Specialist
-Mill Valley, CA
-· Promoted due to proven ability to resolve complex service issues and process transactions accurately
-and eﬃciently to guarantee customer satisfaction and build customer conﬁdence and trust. Responsible
-for establishing, retaining and deepening relationships with customers to achieve team sales goals as
-well as providing proactive sales activities of basic products while referring more complex requests such
-as mortgages and investment products.
-
-Bank of America
-Aug 2012 - Dec 2013
-Teller
-Mill Valley, CA
-· Gained proﬁciency in retail banking operations, including computing ﬁgures, processing transactions
-with speed and accuracy and building customer loyalty through exceptional customer service. Learned
-to control large amounts of cash ﬂow, work within established policies, procedures and guidelines and
-acquired the ability to advise customers on products and services the bank has to oﬀer. Earned a
-promotion to the position of Sales and Service Specialist.
-
-SKILLS
-
-Programming
-Protocols & APIs
-Databases
-
-Python, R
-XML, JSON, REST
-MySQL, PostgreSQL
-
-",MONICA MEYER,monica.meyer@comcast.net,,"{university of san francisco, university of california}",{python}
-5,../data/input/example_resumes/SGresume-1.pdf,.pdf,"Sébastien Genty
-
-1209 Page St, Apt 7, San Francisco, CA 94117
-
-713-301-5648 • sgenty@me.com
-Work Experience
-Project Director, Socratic Technologies 
-
-•  Collaborate with clients to plan, construct, and execute surveys for collecting 
-
-insightful data on their business and marketing needs
-
-•  Explore data using advanced mathematical and statistical methods, in order to 
-
-identify insights and trends
-
-•  Visualize data and extract insights for client facing deliverables
-•  Create market simulators using highly customized applications that incorporate post 
-
-survey analytical results to predict comparative sales figures and market share
-
-•  Manage the data collection process by allocating resources, overseeing workflow, and 
-
-verifying quality data collection
-
-•  Formulated and built a new survey tool that increased statistical variance in 
-
-respondent data, currently in use for multiple clients
-
-•  Established a new model to test the reach, appeal and effectiveness of advertisements
-
-Research Assistant, Bucknell University
-
-•  Independently designed and built an optical set-up to take pictures of Bose-Einstein 
-
-•  Created a user interface to control a high-end camera using Visual Basic
-•  Coordinated with other research assistants working on different aspects of the same 
-
-condensates
-
-experiment
-
-•  Computer model and data analysis done using Matlab and ImageJ
-
-Research Intern, MD Anderson Cancer Center
-
-•  Researched CT dosiometry using a relatively new technique involving x-ray sensitive 
-
-film
-
-•  Analyzed data using Matlab and Mathematica
-
-September 2012 - Present
-
-Fall 2011 - Spring 2012
-
-Summer 2011
-
-Relevant Projects
-New Product Development
-
-•  Computed ideal product configuration by creating a market 
-
-simulator using conjoint analysis
-
-Purchase Process Identification
-
-•  Identified patterns in the purchase process of mortgages using a 
-
-client provided database and formed insights about the timing and 
-effectiveness of marketing materials
-
-Customer Feedback
-
-•  Analyzed users’ opinions and knowledge of recently released 
-
-version of leading media player and distribution platform
-
-Bay Area Bike Share Open Data Challenge
-
-•  Uncovered habits and behavior of riders using an open source 
-dataset and currently developing a visualization of bike station 
-usage
-
-Education
-Bucknell University – Lewisburg, PA
-
-B.S. Physics
-Minor: International Relations
-International Leadership Scholarship
-
-Graduated May 2012
-
-Languages
-  English
-  French
-  Spanish
-  German
-
-Skills
-Computer
-  R
-  Python
-  SPSS
-  Mathematica
-  Matlab
-  Javascript
-  C++
-  SQL
-  Unix
-  Adobe Creative Suite
-  Microsoft Office
-
-Interests
-Film and digital photography, 
-physics, research, reading, video 
-games, solving problems and fixing 
-things
-
-",Sébastien Genty,sgenty@me.com,"(713, 301, 5648)",{bucknell university},"{python, tensorflow}"
+index;file_name;candidate_name;email;phone;universities;open-source;machinelearning;database;programming;experience;languages;platforms;hobbies
+0;Chowdary_Sudheer_20180304185745.pdf;Naive Bayes;sudheernaidu1111@gmail.com;(, 957, 3889);{};{};{sklearn};{SQL};{python, R, C, .NET};{};{};{Mac};{}
+1;resume_5a9d87681de14.docx;Python Developer;preetipkumari01@gmail.com;(, 995, 5433);{};{};{tensorflow, sklearn, keras};{SQL, MySQL};{python, R, C, .NET};{developer};{English};{Mac};{}
+2;resume_5aa17d682bd3c.pdf;ASHIS KR;taniaknd@gmail.com;(, 905, 1070);{};{};{};{SQL};{R, C, .NET};{Teacher};{};{};{reading}
+3;resume_5aa3dc0a58dfd.docx;Bispectral Analysis;kam.ah06@gmail.com;(917, 899, 9765);{Vrije Univesriteit};{};{};{SQL, MySQL};{C, java, python, .NET, R, Matlab};{};{};{Mac};{}
+4;Mukherjee_Arindam_20180307201346.pdf;Arindam Mukherjee;mukherjee.arindam92@gmail.com;(, 974, 8605);{};{};{tensorflow};{SQL, MySQL};{C, JavaScript, java, python, .NET, R};{developer};{};{Mac, Linux};{}
+5;resume_5a98fb9fcfd6d.docx;Writing Jenkins;prashant.gupta.dj@gmail.com;(919, 958, 3160);{MIT};{bitbucket, github};{};{SQL, MySQL};{C, java, python, .NET, R, PHP};{developer};{German, English};{Linux};{}
+6;Ghatak_Anirban_20180303202802.doc;Lexis Nexis;anirbanghatak3@gmail.com;(, 962, 0816);{MIT};{};{tensorflow};{SQL};{R, C, .NET};{developer};{English};{};{}
+7;resume_5a987d4094c1e.pdf;Margin Analysis;vandana.prakashnath89@gmail.com;(, 787, 5404);{MIT};{};{};{Oracle};{C, R};{developer};{};{};{}
+8;Kadakol_Anil_20180827113556.pdf;Anil Kadakol;anilkadakol@gmail.com;(, 984, 5332);{MIT};{};{tensorflow};{};{R, C, .NET};{developer};{German};{};{}
+9;resume_5a9e8f7a3b797.pdf;Sindoora Pottavathini;psindoora@gmail.com;(, 903, 2177);{};{};{};{SQL};{C, java, python, .NET, R, Matlab};{developer};{};{Windows, Mac};{reading}
+10;resume_5aa3a6cc5da5e.pdf;"LinkedIn Profile
+
+Narendra";narendra.dvv@gmail.com;(, 984, 9983);{};{};{};{SQL};{C#, R, C, .NET};{developer};{};{};{}
+11;resume_5aa298367fe60.pdf;Cite Casterneau;aujasvimoudgil@gmail.com;(, 767, 8778);{};{};{};{SQL};{C, JavaScript, java, python, .NET, R, Matlab};{};{};{Windows, Mac};{painting}
+12;resume_5aa35fc009054.pdf;NOT FOUND;poojaur1995@gmail.com;(, 998, 0420);{};{};{};{};{C#, C, R};{};{English};{};{}
+13;Ghatak_Anirban_20180307190547.doc;Data Analysis;anirbanghatak3@gmail.com;(, 962, 0816);{MIT};{};{tensorflow};{SQL};{R, C, .NET};{developer};{English};{};{}
+14;J_Sathish_20180302043945.pdf;Ltd - Chennai;sathishj0508@gmail.com;(, 944, 4418);{};{};{};{SQL, MySQL};{R, C, JavaScript, java, PHP};{developer};{};{Linux};{}
+15;resume_5a9dc21485b32.docx;Sigma Yellow Belt;itsmevadri@gmail.com;(762, 217, 0059);{MIT};{};{tensorflow};{};{R, C, .NET};{developer};{};{};{}
+16;Singh_Ajay_20180304170616.pdf;Ajay Singh;ajaysingh209@gmail.com;(, 876, 2857);{MIT};{};{h20};{SQL, MySQL};{python, R, C, .NET};{developer};{};{Mac, Linux};{}
+17;MANDAL_SNEHASISH_20180308102253.pdf;Regression Analysis;snehasishmandal15@gmail.com;(, 704, 4344);{MIT};{};{};{SQL};{python, C, R};{};{};{};{}
+18;resume_5a9a61d1ed703.docx;LinkedIn URL;navaneethvn@yahoo.com;(, 974, 0345);{MIT};{};{tensorflow};{SQL};{R, C, .NET};{Teacher, developer};{English};{Mac};{}
+19;resume_5a9793a521c7f.docx;"J. Sakthivel
+
+Scrum";dreamsakthi@gmail.com;(, 973, 8858);{Vrije Univesriteit};{};{tensorflow};{Oracle, SQL, MySQL};{C, java, C#, .NET, R, PHP};{developer};{English};{Windows, Linux};{}
+20;resume_5aa0d9d0663ef.pdf;KU Leuven;sandeep.banik@gmail.com;(, 992, 3104);{};{github};{tensorflow, keras};{};{python, C, R, Matlab};{developer};{};{Mac};{}
+21;Kundu_Tania_20180305032542.pdf;ASHIS KR;taniaknd@gmail.com;(, 905, 1070);{};{};{};{SQL};{R, C, .NET};{Teacher};{};{};{reading}
+22;resume_5a9ed66cc0882.pdf;JENNY KARUNAKARAN;jennykarun@gmail.com;(, 974, 2768);{MIT};{};{};{};{C, R};{developer};{};{};{}
+23;prakash_om_20180301224140.docx;Naive Bayes;atominbox18@gmail.com;(, 772, 3699);{MIT};{};{};{};{python, C, R};{};{English};{Mac};{reading}
+24;N_Karthikeyan_20180305043827.pdf;Tamil Nadu;keyan128@gmail.com;(, 978, 9877);{MIT};{};{tensorflow};{SQL};{python, C, R};{developer};{};{Mac};{}
+25;resume_5a9a7e0ca2eef.rtf;Promila Sehrawat;promilasehrawat@gmail.com;(, 740, 6000);{MIT};{};{};{};{R, C, .NET};{developer};{};{};{}
+26;resume_5a96f1ecb2ea1.docx;"Arpan Basu                                                                                                                                                                
+
+                                                                                                                                                    Email:-arpan.bas@gmail.com";-arpan.bas@gmail.com;(, 988, 6327);{MIT};{};{tensorflow};{};{C, R};{developer};{German};{};{}
+27;_Shandeep_20180311080437.docx;Veerapandi Pirivu;shandeep.work@gmail.com;(, 919, 9994);{Vrije Univesriteit, MIT};{};{tensorflow};{Oracle, SQL};{C, R};{developer};{};{Mac};{}
+28;resume_5a9bede587a61.pdf;Agile Methodologies;jaiyadwad@gmail.com;;{};{};{};{};{R, C, .NET};{developer};{};{};{}
+29;Srivastava_Vyom_20180307083233.pdf;LinkedIn Profile;vshrivastava0@gmail.com;(, 797, 7869);{MIT};{};{tensorflow};{SQL, MySQL};{C, JavaScript, java, python, .NET, R};{developer};{};{Linux};{}
+30;resume_5a9fccfcb43ba.pdf;"LinkedIn Profile
+
+Top Skills";promilasehrawat@gmail.com;;{};{};{};{};{C, R};{};{};{};{}
+31;resume_5aa045e4b808e.pdf;Core Java;siddharthadeshwal@gmail.com;(353, 899, 7239);{MIT};{};{tensorflow, sklearn};{Postgress, SQL};{python, R, C, .NET, java};{developer};{English};{Mac, Linux};{}
+32;resume_5a9af6e92f17f.pdf;Data Analysis;bharatp8766@gmail.com;(, 980, 0127);{MIT};{};{tensorflow};{};{python, C, R, Matlab};{developer};{};{Mac};{}
+33;Baitha_Ranjan_20180301074447.pdf;Ranjan Baitha;spark.ranjan@gmail.com;(, 895, 1901);{};{};{tensorflow};{SQL, MySQL};{C, java, python, JavaScript, R, PHP};{developer};{};{Mac, Linux};{soccer, reading}
+34;resume_5a97ced9e3d17.doc;Certified Trainer;pdshinde25@gmail.com;(, 982, 0216);{MIT};{};{tensorflow};{Oracle, SQL};{C#, R, C, .NET, java};{developer};{};{};{}
+35;resume_5a9f57ab7d3bf.pdf;Gunjan Agicha;gunjanagicha@gmail.com;(, 861, 5461);{MIT};{github};{tensorflow, sklearn};{SQL};{python, R, C, .NET, java};{developer};{};{Mac};{}
+36;_Purushotham_20180301130724.docx;Kendriya Vidyalaya;email-purushothamchinu@yahoo.co.in;(961, 150, 7279);{MIT};{};{};{};{python, C, R};{developer};{};{};{reading}
+37;Chavan_Rohit_20180307163449.pdf;Navi Mumbai;rdchavan93@gmail.com;(, 996, 7424);{};{};{};{SQL};{python, C, R, java};{developer};{};{Mac};{}
+38;A_Murali_20180302031451.pdf;Matrix Reports;muraliiibs@gmail.com;(918, 105, 8454);{};{};{tensorflow};{Oracle};{R, C, .NET};{developer};{German};{};{}
+39;resume_5a9911180f47e.pdf;Web Logic;amith0504@GMAIL.COM;(, 809, 5984);{Vrije Univesriteit, MIT};{};{};{SQL, MySQL};{python, C, R, java};{developer};{English};{Windows, Linux};{}
+40;Kumar_KollaPraveen_20180813164644.pdf;Lakshmi Colony;praveenkumar.kolla@gmail.com;(, 900, 0689);{MIT};{};{};{SQL};{C, R};{developer};{English};{Mac};{}
+41;resume_5a994f123d7ff.docx;Open Saving;Samal.bulu@gmail.com;(, 824, 9665);{MIT};{};{};{};{R, C, .NET};{};{English};{};{soccer}
+42;Kurra_Venkat_20180228164538.pdf;Valuebased Prioritization;kvkiranb@gmail.com;(, 879, 0967);{MIT};{};{};{Oracle, SQL};{.NET, R, C, JavaScript, java};{developer};{};{};{}
+43;resume_5a98e2cfd62c5.docx;Curriculum Vitae;gbalyam@gmail.com;(, 864, 8910);{};{};{};{};{R, C, .NET};{developer};{};{Windows};{}
+44;resume_5a9ab074bfa02.pdf;- Linux;mail@imohit.me;(, 991, 0008);{Vrije Univesriteit};{github};{tensorflow};{SQL, MySQL};{python, R, C, .NET};{developer};{};{Linux};{}
+45;v_shyncy_20180309152030.pdf;Karnataka 2015-02;shyncivalsala@gmail.com;(, 998, 6019);{};{};{};{Oracle, SQL};{R, C, .NET, java};{};{};{Mac};{}
+46;resume_5aa06c23defba.pdf;Naïve Bayes;sathu.com79@gmail.com;(, 074, 2701);{MIT};{};{tensorflow};{Oracle, SQL, MySQL};{C, java, python, JavaScript, R, Matlab};{developer};{};{Mac};{}
+47;Subramanian_Anand_20180307163924.pdf;Deccan Herald - Bengaluru;signupwithanand@gmail.com;(, 974, 1533);{MIT};{};{};{SQL};{python, C, R};{developer};{};{Mac};{}
+48;Bhagat_Anulekha_20180309191112.pdf;Providing KT;anulekha.bhagat@gmail.com;(917, 204, 2614);{MIT};{};{tensorflow};{SQL};{C, R};{};{};{};{}
+49;Girish_Kumar_resume.pdf;Systems Engineer;girishkumar.s020@gmail.com;(, 988, 6586);{MIT};{};{tensorflow};{};{python, C, R};{developer};{};{Mac};{}
+50;resume_5a9d3b5c972a9.doc;B.L. Purushotham;bl.purushotham@gmail.com;(, 998, 6732);{};{};{};{};{R, C, .NET};{};{English};{Windows};{}
+51;Lakshmanan_Chokkalingam_20180305161104.pdf;Effort Estimation;get2choks@gmail.com;(, 997, 2957);{MIT};{};{tensorflow};{Oracle, SQL};{python, R, C, .NET, java};{developer};{German};{Windows, Linux};{}
+52;aneeshchandra_sriramoju_20180309051057.pdf;Data Analysis;anishsriramoju@gmail.com;(733, 723, 2223);{};{};{};{Oracle, SQL};{python, C, R, java, Matlab};{developer};{};{};{}
+53;C_Prabhu_20180305045718.docx;B. E. (;prabhucmath@gmail.com;(, 740, 6192);{};{};{tensorflow, keras};{Oracle, SQL};{python, R, C, .NET, java};{developer};{};{Mac};{}
+54;Bartaria_Saumya_20180228172554.pdf;Quiz Generator;saumyab3003@gmail.com;;{MIT};{};{tensorflow, keras};{Oracle, SQL};{python, C, R};{developer};{};{Mac};{}
+55;Kumar_KollaPraveen_20180811060915.pdf;Lakshmi Colony;praveenkumar.kolla@gmail.com;(, 900, 0689);{MIT};{};{};{SQL};{C, R};{developer};{English};{Mac};{}
+56;S_Arunkumar_20180306041857.pdf;"Karnataka
+
+WORK";a.arun770@gmail.com;(, 917, 6949);{MIT};{};{tensorflow};{};{R, C, .NET};{};{};{};{}
+57;resume_5a9a29c6b0b44.pdf;NOT FOUND;ashish.akshantal@gmail.com;(, 950, 2509);{};{github};{tensorflow};{};{python, C, R};{developer};{};{Mac};{}
+58;resume_5aa02bd6b244c.docx;Kendriya Vidyalaya;garima.chanana14@gmail.com;(844, 777, 7327);{MIT};{};{};{Oracle, SQL, MySQL};{python, C, R, java};{developer};{English};{Windows, Mac, Linux};{}
+59;resume_5a9e320e4b5c7.pdf;Mock Drills;ersainirachna@gmail.com;(, 868, 8695);{};{};{tensorflow};{};{C, R};{};{};{Windows};{}
+60;resume_5a96efa614d43.pdf;Fraud Flows;sandeepkokula@gmail.com;(917, 829, 5454);{MIT};{};{tensorflow, sklearn};{};{C, java, python, .NET, R, Matlab};{developer};{};{Windows, Mac, Linux};{}
+61;resume_5a998a484c084.pdf;Jan-2013 – Aug-2013;prashanth.suresh@yahoo.co.in;(, 994, 0216);{};{};{};{SQL};{python, C, R};{developer};{};{Mac};{}
+62;Ranjan_Aashish_20180511033002.pdf;Pursued Post;ranjan.ashish444@gmail.com;(, 902, 4910);{};{github};{tensorflow, sklearn, keras};{Oracle, SQL, MySQL};{C, JavaScript, java, python, .NET, R};{developer};{};{Mac};{}
+63;laxmiTripathy_Soubhagya_20180301113506.docx;Data Analysis;shubbi.tripathy@gmail.com;(, 973, 9987);{MIT};{github};{sklearn};{SQL};{python, C, R, java};{developer};{};{Windows, Mac, Linux};{}
+64;resume_5a9788ea01178.docx;Durga Kar;Durga.kar@gmail.com;(, 998, 6024);{MIT};{};{tensorflow};{Oracle, SQL};{R, C, .NET, java};{developer};{};{};{}
+65;resume_5aa0f680561ba.pdf;Databases - NoSQL;rdchavan93@gmail.com;(, 996, 7424);{};{};{tensorflow};{SQL};{python, R, C, .NET, java};{developer};{English};{Mac};{reading}
+66;Subramani_Selvakumar_20180307083458.pdf;Product Backlog;selvamail4u@yahoo.com;(, 996, 2764);{};{};{};{};{C, R};{developer};{};{};{}
+67;resume_5a979c4781ee0.doc;Srividhya Rajesh;itssrividhyarajesh@gmail.com;(, 988, 6645);{Vrije Univesriteit, MIT};{};{tensorflow};{SQL};{.NET, R, C, JavaScript, java};{developer};{};{};{}
+68;Dewangan_Shashikant_20180301064724.pdf;Shashikant Dewangan;shashi.dewangan16@yahoo.com;(, 990, 7648);{};{};{};{SQL, MySQL};{C, java, python, .NET, R, Matlab, PHP};{developer};{};{Windows, Mac, Linux};{}
+69;kumarsp_Santhosh_20180304093927.pdf;Data Scientist;santu4it@gmail.com;(, 990, 0499);{MIT};{};{tensorflow};{SQL, MySQL};{C, JavaScript, java, python, .NET, R, PHP};{developer};{};{Mac};{}
+70;resume_5a96fab04adb9.docx;Viji Menon;viji.menon@hotmail.com;(, 974, 1133);{MIT};{};{};{};{R, C, .NET, java};{developer};{};{Mac};{}
+71;Manoj_Yalamanchili_20180304144347.pdf;Yalamanchili Manoj;y.manoj1@gmail.com;(918, 106, 0756);{};{};{};{SQL, MySQL};{python, R, C, .NET, java};{developer};{};{Windows, Mac, Linux};{}
+72;Tripathi_Rahul_20180303151820.pdf;"Rahul Tripathi
+Resume ->";tri.rahul88@gmail.com;(, 888, 4261);{};{github};{tensorflow, sklearn, keras};{};{python, C, R};{};{};{Mac};{}
+73;resume_5a9e6b95b31c2.doc;Abhinav Jain;jain.abhinav13@gmail.com;(, 810, 9558);{};{github};{};{};{C, JavaScript, java, .NET, R, PHP};{developer};{};{};{reading}
+74;PrashanthSundaresan_Hari_20180307135324.pdf;Tamil Nadu;hariprashanth1990@gmail.com;(, 728, 9898);{};{};{};{SQL, MySQL};{python, R, C, .NET};{developer};{};{Windows, Mac};{soccer}
+75;Choudhary_Raman_20180303144901.docx;SRM University;shivraman111990@gmail.com;(, 996, 2745);{};{github};{tensorflow};{};{python, C, R};{developer};{};{Mac};{}
+76;S_Athira_20180307115404.pdf;Manalel House;sobhaathira3@gmail.com;(, 948, 6509);{MIT};{};{};{};{python, C, R};{};{English};{Mac};{}
+77;Nagaraj_Ranjitha_20180301063736.pdf;Ranjitha Nagaraj;ranjitha.nagaraj@gmail.com;(, 973, 1920);{MIT};{};{};{};{R, C, .NET};{developer};{German};{};{}
+78;resume_5aa413ff2ed86.pdf;Kendriya Vidayalaya;abhinav.maurya7@gmail.com;(, 259, 8730);{MIT};{};{};{};{python, C, R};{developer};{English};{Mac};{reading}
+79;Jose_Jackin_20180306064427.pdf;Jackin Jose;jackin.joseda@gmail.com;(, 814, 6878);{};{};{};{SQL};{python, R, C, .NET, java};{};{};{Windows};{}
+80;resume_5aa22e0d361aa.pdf;Gayatri Nagar;gargi.agrawal318@gmail.com;(917, 000, 8915);{};{};{tensorflow};{};{python, C, R, java};{};{English};{Windows, Mac, Linux};{}
+81;resume_5aa13a0fa7915.pdf;Skill Set;s_nathak@yahoo.com;(, 983, 6786);{MIT};{sourceforge};{tensorflow};{Oracle};{R, C, .NET, java};{developer};{German, English};{Windows};{}
+82;resume_5aa177f50b598.docx;Desk Analyst;debashis12@gmail.com;(, 988, 6887);{MIT};{};{tensorflow};{SQL};{python, C, R};{developer};{English};{};{reading}
+83;resume_5a9aaf9ad2548.pdf;Sep ’03 – Nov ’04 worked;chinthalapudi.rao@gmail.com;(, 988, 0569);{};{};{};{};{C, R};{developer};{};{};{}
+84;Bhat_Sowjanya_20180306180216.pdf;Symfony Framework;sbhatm1213@gmail.com;(, 741, 1730);{};{};{};{SQL, MySQL};{C, java, python, JavaScript, R, PHP};{developer};{};{Windows};{}
+85;resume_5a9950eb52dff.docx;Engineer Build;saidareddydevops@gmail.com;(919, 566, 3198);{};{github};{tensorflow};{};{R, C, .NET, java};{developer};{};{Windows, Linux};{}
+86;US_Smitha_20180304035738.pdf;Netcool Omnibus;smithau.sridhar@gmail.com;(, 900, 8484);{MIT};{};{tensorflow};{SQL};{python, R, C, .NET, java};{developer};{};{Windows};{}
+87;resume_5a9915165fd33.pdf;Engineer 2;batra.manish4@gmail.com;(, 779, 1975);{};{};{tensorflow};{Oracle, SQL};{python, R, C, .NET, java};{developer};{};{Windows, Linux};{}
+88;K_Vishwanath_20180301063056.doc;Vishwanath Khoday;vishwank6@gmail.com;(, 808, 6659);{MIT};{bitbucket};{};{};{R, C, .NET};{developer};{};{};{}
+89;resume_5a976abcc4d33.pdf;Data Analyst;praveenhondad@gmail.com;(, 903, 6990);{MIT};{};{};{Oracle, SQL, MySQL};{C, R};{developer};{English};{Windows, Linux};{}
+90;reddy_saida_20180308055101.docx;Release Engineer;saidareddydevops@gmail.com;(, 956, 6319);{};{github};{tensorflow};{};{python, R, C, .NET, java};{developer};{};{Windows, Linux};{}
+91;resume_5a9cf3fdc4eda.pdf;Policy Auditor;naina112@gmail.com;(, 973, 9011);{Vrije Univesriteit, MIT};{};{tensorflow};{Oracle, SQL};{R, C, .NET};{developer};{};{Windows};{}
+92;V_Shashikanth_20180312033909.pdf;Cloud Watch;Shashikant0811@outlook.com;(, 900, 8630);{};{};{};{};{python, R, C, .NET};{developer};{};{Windows, Mac, Linux};{}
+93;na_Nishant_20180306013634.pdf;B. E.;nishantk1207@gmail.com;(, 973, 9524);{};{};{};{SQL};{C#, python, C, R, java};{};{English};{Windows, Mac, Linux};{soccer}
+94;Yelchuri_Ramakrishna_20180303104538.pdf;Ramakrishna Yelchuri;rama.cool.krishna@gmail.com;(, 988, 0652);{};{};{};{SQL};{python, R, C, .NET, java};{developer};{};{Mac};{}
+95;P_Sakthivel_20180309131139.pdf;➢ Binary;sakthivelj009@gmail.com;(, 834, 4789);{};{};{};{};{C, R};{};{English};{};{}
+96;resume_5a9940e8bb85f.doc;Concorde Windrush;priju_punnoose@yahoo.co.in;(, 988, 0278);{MIT};{bitbucket, github, gitlab};{tensorflow};{Oracle, SQL};{C, JavaScript, java, python, .NET, R};{developer};{};{Windows, Linux};{}
+97;Reddy_Ashokbabu_20180303071424.docx;NOT FOUND;katamreddyashok06@gmail.com;(, 950, 2309);{};{};{};{};{C, R};{};{English};{};{}
+98;V_Sheela_20180301144228.doc;Chennai -   Apr 2005 - January;sheelav1976@gmail.com;(, 984, 1217);{};{};{};{};{C, R};{developer};{English};{};{reading}
+99;resume_5a9a8338b7e2a.docx;Promila Sehrawat;promilasehrawat@gmail.com;(, 740, 6000);{MIT};{};{};{};{R, C, .NET};{developer};{};{};{}
+100;resume_5a9797beb275f.doc;Lexis Nexis;anirbanghatak3@gmail.com;(, 962, 0816);{MIT};{};{tensorflow};{SQL};{R, C, .NET};{developer};{English};{};{}
+101;resume_5a96e8c5c414d.doc;NOT FOUND;;;{};{};{};{};{};{};{};{};{}

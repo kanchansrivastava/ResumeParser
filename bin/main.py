@@ -14,6 +14,10 @@ import lib
 import field_extraction
 import spacy
 
+# RESUME_DIR = '/Users/kanchansrivastava/PycharmProjects/codebase/cb/ResumeParser/data/input/example_resumes'
+RESUME_DIR = '/Users/kanchansrivastava/Downloads/resumes'
+OUTPUT_PATH = '/Users/kanchansrivastava/PycharmProjects/codebase/cb/ResumeParser/data/output/resume_summary.csv'
+
 
 def main():
     """
@@ -25,6 +29,7 @@ def main():
 
     # Extract data from upstream.
     observations = extract()
+
 
     # Spacy: Spacy NLP
     nlp = spacy.load('en')
@@ -41,7 +46,7 @@ def main():
 def text_extract_utf8(f):
     try:
         return unicode(textract.process(f), "utf-8")
-    except UnicodeDecodeError, e:
+    except:
         return ''
 
 def extract():
@@ -51,10 +56,9 @@ def extract():
     candidate_file_agg = list()
 
     # Create list of candidate files
-    for root, subdirs, files in os.walk(lib.get_conf('resume_directory')):
+    for root, subdirs, files in os.walk(RESUME_DIR):
         folder_files = map(lambda x: os.path.join(root, x), files)
         candidate_file_agg.extend(folder_files)
-
     # Convert list to a pandas DataFrame
     observations = pandas.DataFrame(data=candidate_file_agg, columns=['file_path'])
     logging.info('Found {} candidate files'.format(len(observations.index)))
@@ -79,6 +83,7 @@ def transform(observations, nlp):
     logging.info('Begin transform')
 
     # Extract candidate name
+    observations['file_name'] = observations['file_path'].apply(lambda x: os.path.basename(x))
     observations['candidate_name'] = observations['text'].apply(lambda x:
                                                                 field_extraction.candidate_name_extractor(x, nlp))
 
@@ -91,18 +96,21 @@ def transform(observations, nlp):
 
     # Archive schema and return
     lib.archive_dataset_schemas('transform', locals(), globals())
+
     logging.info('End transform')
+    del observations['text']
+    del observations['extension']
+    del observations['file_path']
     return observations, nlp
 
 
 def load(observations, nlp):
     logging.info('Begin load')
-    output_path = os.path.join(lib.get_conf('summary_output_directory'), 'resume_summary.csv')
 
-    logging.info('Results being output to {}'.format(output_path))
-    print('Results output to {}'.format(output_path))
+    logging.info('Results being output to {}'.format(OUTPUT_PATH))
+    print('Results output to {}'.format(OUTPUT_PATH))
 
-    observations.to_csv(path_or_buf=output_path, index_label='index', encoding='utf-8', sep=";")
+    observations.to_csv(path_or_buf=OUTPUT_PATH, index_label='index', encoding='utf-8', sep=";")
     logging.info('End transform')
     pass
 

@@ -23,7 +23,7 @@ def candidate_name_extractor(input_string, nlp):
 
     # Assuming that the first Person entity with more than two tokens is the candidate's name
     if doc_persons:
-        return doc_persons[0]
+        return doc_persons[0].strip()
     return "NOT FOUND"
 
 
